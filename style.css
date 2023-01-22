@@ -1,0 +1,123 @@
+:root {
+  --text-color: #757575;
+  --accent-color: #2196f3;
+  --heading-color: #212121;
+  --background-color: #ffffff;
+  --team-color: #f5f4fa;
+}
+
+body {
+  font-family: Roboto, sans-serif, Raleway;
+  box-sizing: border-box;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.studio {
+  width: 72px;
+  height: 16px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: var(--heading-color);
+}
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  color: var(--text-color);
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  color: var(--text-color);
+}
+/* Header */
+
+.logo {
+  width: 145px;
+  height: 31px;
+
+  font-family: "Raleway";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+
+  color: var(--heading-color);
+}
+
+.logo--web {
+  color: var(--accent-color);
+}
+
+a:hover {
+  cursor: pointer;
+  color: var(--accent-color);
+}
+
+.active-link {
+  color: var(--accent-color);
+}
+
+.hero-heading {
+  width: 696px;
+  height: 120px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.hero {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+
+  background: #2f303a;
+}
+
+.hero-button {
+  position: absolute;
+  width: 216px;
+  height: 50px;
+  left: 692px;
+  top: 430px;
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
