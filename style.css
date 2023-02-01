@@ -1,35 +1,69 @@
 :root {
-  --text-color: #757575;
-  --accent-color: #2196f3;
-  --heading-color: #212121;
+  --text-color: #626262;
+  --accent-color: #b4ad9e;
+  --heading-color: #03a9f4;
   --background-color: #ffffff;
-  --team-color: #f5f4fa;
+  --header-color: #7d7d7d;
 }
 
 body {
-  font-family: Roboto, sans-serif, Raleway;
+  font-family: "Playfair Display", serif;
   box-sizing: border-box;
   background-color: var(--background-color);
   color: var(--text-color);
 }
 
-.studio {
-  width: 72px;
-  height: 16px;
-
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-
-  color: var(--heading-color);
+.image1 {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 148px;
+  top: 182px;
 }
+
+.image2 {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 633px;
+  top: 182px;
+}
+
+.image3 {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 147px;
+  top: 858px;
+}
+.image4 {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 633px;
+  top: 858px;
+}
+.image5 {
+  position: absolute;
+  width: 420px;
+  height: 280px;
+  left: 149px;
+  top: 1500px;
+}
+.image6 {
+  position: absolute;
+  width: 419px;
+  height: 280px;
+  left: 633px;
+  top: 1504px;
+}
+h6 {
+  color: #b4ad9e;
+}
+
 p,
 h1,
-h2,
-h3 {
+h2 {
   margin: 0;
   padding: 0;
   color: var(--text-color);
@@ -48,76 +82,333 @@ a {
   color: var(--text-color);
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-  color: var(--text-color);
-}
-/* Header */
-
-.logo {
-  width: 145px;
-  height: 31px;
-
-  font-family: "Raleway";
-  font-style: bold;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  /* identical to box height */
-
-  letter-spacing: 0.03em;
-
+a:hover {
+  cursor: pointer;
   color: var(--heading-color);
 }
 
-.logo--web {
-  color: var(--accent-color);
-}
+.lifestyle {
+  color: var(--heading-color);
+  position: absolute;
+  width: 71px;
+  height: 19px;
+  left: 315px;
+  top: 71px;
 
-a:hover {
-  cursor: pointer;
-  color: var(--accent-color);
-}
-
-.active-link {
-  color: var(--accent-color);
-}
-
-.hero-heading {
-  width: 696px;
-  height: 120px;
-
-  font-family: "Roboto";
+  font-family: "Playfair Display";
   font-style: normal;
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 60px;
-  /* or 136% */
-
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-
-  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
-.hero {
+
+.photodiary {
+  color: var(--header-color);
   position: absolute;
-  width: 1600px;
-  height: 600px;
+  width: 89px;
+  height: 19px;
+  left: 485px;
+  top: 71px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.music {
+  color: var(--header-color);
+  position: absolute;
+  width: 44px;
+  height: 19px;
+  left: 674px;
+  top: 71px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.travel {
+  color: var(--header-color);
+  position: absolute;
+  width: 52px;
+  height: 19px;
+  left: 818px;
+  top: 71px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.lifestyle1 {
+  color: var(--accent-color);
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 148px;
+  top: 524px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.lifestyle2 {
+  color: var(--accent-color);
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 633px;
+  top: 524px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.lifestyle3 {
+  color: var(--accent-color);
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 148px;
+  top: 1170px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.lifestyle4 {
+  color: var(--accent-color);
+  position: absolute;
+  width: 86px;
+  height: 16px;
+  left: 633px;
+  top: 1170px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.lifestyle5 {
+  color: var(--accent-color);
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 149px;
+  top: 1812px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.lifestyle6 {
+  color: var(--accent-color);
+  position: absolute;
+  width: 64px;
+  height: 16px;
+  left: 632px;
+  top: 1816px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.h21 {
+  position: absolute;
+  width: 408px;
+  height: 40px;
+  left: 148px;
+  top: 572px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.h22 {
+  position: absolute;
+  width: 379px;
+  height: 40px;
+  left: 633px;
+  top: 572px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.h23 {
+  position: absolute;
+  width: 225px;
+  height: 40px;
+  left: 148px;
+  top: 1218px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.h24 {
+  position: absolute;
+  width: 324px;
+  height: 40px;
+  left: 633px;
+  top: 1218px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.h25 {
+  position: absolute;
+  width: 321px;
+  height: 40px;
+  left: 149px;
+  top: 1860px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.h26 {
+  position: absolute;
+  width: 226px;
+  height: 40px;
+  left: 632px;
+  top: 1864px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+
+.p1 {
+  position: absolute;
+  width: 420px;
+  height: 76px;
+  left: 148px;
+  top: 652px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.p2 {
+  position: absolute;
+  width: 420px;
+  height: 76px;
+  left: 633px;
+  top: 652px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.p3 {
+  position: absolute;
+  width: 420px;
+  height: 76px;
+  left: 148px;
+  top: 1298px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.p4 {
+  position: absolute;
+  width: 420px;
+  height: 76px;
   left: 0px;
-  top: 80px;
+  top: 75px;
 
-  background: #2f303a;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
 }
 
-.hero-button {
+.p5 {
   position: absolute;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
-  background-color: var(--accent-color);
-  color: var(--background-color);
+  width: 420px;
+  height: 76px;
+  left: 149px;
+  top: 1948px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.p6 {
+  position: absolute;
+  width: 420px;
+  height: 76px;
+  left: 632px;
+  top: 1944px;
+
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.button {
+  position: absolute;
+  width: 165px;
+  height: 60px;
+  left: 506px;
+  top: 2110px;
 }
